@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&family=Noto+Sans+JP:wght@700&family=Orienta&family=Risque&display=swap");
+
+.ql-container {
+  font-size: 21px !important;
+  line-height: 1.5 !important;
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.ql-container ul {
+  margin-left: 40px !important;
+}
+
+.ql-container h2 {
+  font-size: 26px !important;
+  font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
+}
+
+.char__link {
+  color: #e79301;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 17pt;
+  cursor: pointer;
+}
+
+.bonsai__spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.bonsai__spinner_text {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bonsai__home {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.bonsai__home button:hover {
+  opacity: 0.8;
+}
+
+.bonsai__auth-button:hover {
+  opacity: 0.8;
+}
+
+/* Iphone X css */
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .bonsai__home {
+    margin-top: 5rem;
+  }
+}
